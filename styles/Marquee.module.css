@@ -1,5 +1,7 @@
 .anim {
-    position: absolute;
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
     will-change: transform;
     animation: marquee 15s linear infinite ;
 }
@@ -7,4 +9,17 @@
 .anim:hover {
     animation-play-state: paused;
     
+}
+
+.slider {
+    display: flex;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
