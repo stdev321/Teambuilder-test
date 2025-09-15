@@ -63,7 +63,7 @@ const sortedProductList = useMemo(() => {
 
       {/* === SHOW PRODUCTS  */}
       <section
-        className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4
+        className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3
        lg:mx-20 overflow-hidden
       "
       >
